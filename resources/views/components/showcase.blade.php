@@ -41,13 +41,10 @@
 
             <div class="max-w-md lg:justify-self-end">
                 <p class="text-sm leading-7 text-[#66584B]">
-                    Explore a proposed digital experience for discovering
-                    drinks, checking menu prices, and planning a cafe visit.
+                    Discover drinks, check menu prices, and find the details for your next cafe visit.
                 </p>
 
-                <p class="mt-4 inline-block rounded-full border border-[#CDBEAC] px-3 py-1.5 text-[10px] font-medium tracking-wide text-[#66584B]">
-                    Student concept &middot; Visual previews
-                </p>
+                
             </div>
         </div>
 
@@ -65,9 +62,7 @@
                             Hometown Cafe · Guest dashboard
                         </p>
 
-                        <span class="text-[10px] text-[#66584B]">
-                            Preview
-                        </span>
+                        <span class="text-[10px] text-[#66584B]">Guest</span>
                     </div>
 
                     <div class="grid sm:grid-cols-[130px_minmax(0,1fr)]">
@@ -110,7 +105,7 @@
                                 </p>
 
                                 <span class="rounded-full border border-[#DFD2C1] px-2.5 py-1 text-[10px] text-[#756453]">
-                                    Guest preview
+                                    Guest
                                 </span>
                             </div>
 
@@ -165,7 +160,7 @@
                 </div>
 
                 <figcaption class="mt-4 text-center text-xs leading-6 text-[#66584B]">
-                    Desktop dashboard concept
+                    Desktop experience
                 </figcaption>
             </figure>
 
@@ -229,7 +224,7 @@
                 </div>
 
                 <figcaption class="mt-4 text-center text-xs leading-6 text-[#66584B]">
-                    Mobile menu concept
+                    On your phone
                 </figcaption>
             </figure>
         </div>
@@ -261,10 +256,6 @@
             @endforeach
         </div>
 
-        <p class="mt-6 text-xs leading-6 text-[#756453]">
-            These previews illustrate a proposed interface.
-            They do not represent an active customer account or ordering service.
-            Drink images are AI-generated.
-        </p>
+        
     </div>
 </section>

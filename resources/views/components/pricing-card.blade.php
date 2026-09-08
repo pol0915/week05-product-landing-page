@@ -37,7 +37,7 @@
             'text-[#E1CBB0]' => $featured,
             'text-[#756453]' => !$featured,
         ])>
-            Estimated total per package
+            Package total
         </p>
     </div>
 
@@ -88,20 +88,14 @@
             class="w-full"
             aria-haspopup="dialog"
             aria-controls="package-{{ $id }}"
-            aria-label="Subscribe to {{ $name }}: open prototype preview"
+            aria-label="View {{ $name }} package"
             onclick="this.closest('article').querySelector('dialog').showModal()"
         >
             View Package
             <span aria-hidden="true">&rarr;</span>
         </x-button>
 
-        <p @class([
-            'mt-3 text-center text-[11px] leading-5',
-            'text-[#E1CBB0]' => $featured,
-            'text-[#756453]' => !$featured,
-        ])>
-            Prototype preview only
-        </p>
+        
     </div>
 
     <dialog
@@ -113,14 +107,14 @@
         <form method="dialog">
             <div class="flex items-center justify-between gap-4">
                 <p class="text-[10px] font-semibold uppercase tracking-[0.18em] text-[#886449]">
-                    Student concept
+                    Hometown Cafe
                 </p>
 
                 <button
                     type="submit"
                     value="close"
                     autofocus
-                    aria-label="Close package preview"
+                    aria-label="Close package details"
                     class="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-[#DFD2C1] hover:bg-[#E8DDCE] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#886449]"
                 >
                     <svg
@@ -148,10 +142,7 @@
                 id="package-description-{{ $id }}"
                 class="mt-4 text-sm leading-7 text-[#66584B]"
             >
-                This package was designed for a student project.
-                It is not a confirmed Hometown Cafe offer.
-                Opening this preview does not place an order or
-                create a subscription.
+                Take a closer look at the drinks and bites included in this package.
             </p>
 
             <ul class="mt-6 space-y-3 rounded-2xl bg-[#EDE4D8] p-5">
@@ -161,7 +152,7 @@
             </ul>
 
             <div class="mt-6 flex items-center justify-between gap-4">
-                <span class="text-sm text-[#66584B]">Estimated total</span>
+                <span class="text-sm text-[#66584B]">Package total</span>
                 <span class="text-xl font-semibold">
                     &#8369;{{ number_format($price, 2) }}
                 </span>

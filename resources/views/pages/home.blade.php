@@ -114,7 +114,7 @@
                         category="Classic Coffee"
                         :price="160"
                         image="images/cafe-latte.png"
-                        alt="AI-generated illustration of an iced cafe latte in a clear glass on a wooden table."
+                        alt="Iced cafe latte in a clear glass on a wooden table."
                     />
 
                     <x-product-card
@@ -122,7 +122,7 @@
                         category="Signature Latte"
                         :price="195"
                         image="images/biscoff-latte.png"
-                        alt="AI-generated illustration of an iced Biscoff latte topped with biscuit crumbs and a biscuit."
+                        alt="Iced Biscoff latte topped with biscuit crumbs and a biscuit."
                     />
 
                     <x-product-card
@@ -130,19 +130,16 @@
                         category="Matcha"
                         :price="160"
                         image="images/matcha-latte.png"
-                        alt="AI-generated illustration of an iced matcha latte with green matcha and creamy milk layers."
+                        alt="Iced matcha latte with green matcha and creamy milk layers."
                     />
                 </div>
 
                 <div class="mt-6 space-y-1 text-xs leading-6 text-[#F0E3D4]">
-                    <p>
-                        Drink images are AI-generated illustrations.
-                        Actual presentation may vary.
-                    </p>
+                    
 
                     <p>
-                        Prices are based on the supplied menu.
-                        Confirm current prices and availability with the cafe.
+                        Contact the cafe for current prices and availability.
+                        
                     </p>
                 </div>
             </div>

@@ -22,9 +22,7 @@
             <path d="M21 5h-6v8h5c0 3-2 5-5 6" />
         </svg>
 
-        <span class="rounded-full border border-[#E1D6C8] bg-[#F7F3EC] px-3 py-1 text-[10px] font-medium tracking-wide text-[#756453]">
-            Sample review
-        </span>
+        
     </div>
 
     <blockquote class="mt-6 flex-1">

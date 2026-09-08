@@ -20,16 +20,14 @@
             </div>
 
             <p class="max-w-md text-sm leading-7 text-[#66584B] lg:justify-self-end">
-                An example of how guest experiences could be featured
-                on the cafe website. The names and reviews below are
-                fictional sample content for this student project.
+                Coffee breaks, familiar faces, and conversations that last a little longer. A few stories from around the table.
             </p>
         </div>
 
         <div class="mt-10 grid items-stretch gap-5 md:grid-cols-3 lg:gap-6">
             <x-testimonial-card
                 name="Alex D."
-                position="Student · Fictional profile"
+                position="Student"
                 initials="AD"
                 photo="images/guest-alex.png"
                 review="A quiet coffee break was exactly what I needed after a busy week. I liked having a comfortable corner to sit, enjoy my latte, and slow down for a while."
@@ -37,7 +35,7 @@
 
             <x-testimonial-card
                 name="Jamie R."
-                position="Designer · Fictional profile"
+                position="Designer"
                 initials="JR"
                 photo="images/guest-jamie.png"
                 review="The warm lighting and simple interiors made our afternoon catch-up feel relaxed. We took our time over coffee and shared a snack while catching up."
@@ -45,7 +43,7 @@
 
             <x-testimonial-card
                 name="Sam C."
-                position="Local resident · Fictional profile"
+                position="Local resident"
                 initials="SC"
                 photo="images/guest-sam.png"
                 review="I enjoyed being able to choose something beyond my usual coffee. A matcha latte, a bite to eat, and good company made for a lovely little break."

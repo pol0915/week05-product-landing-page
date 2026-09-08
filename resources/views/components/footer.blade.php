@@ -135,7 +135,7 @@
         <div class="mt-10 flex flex-wrap items-center justify-between gap-x-6 gap-y-3 border-t border-[#514033] pt-6 text-xs leading-6 text-[#D4C2AB]">
             <p>&copy; {{ date('Y') }} Hometown Cafe.</p>
 
-            <p>Student landing page project. Unofficial website.</p>
+            
 
             <a href="#home" class="inline-flex items-center gap-2 py-2 hover:text-white">
                 Back to top
