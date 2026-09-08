@@ -15,7 +15,7 @@
     <p @class([
         'text-[10px] font-semibold uppercase tracking-[0.18em]',
         'text-[#E1CBB0]' => $featured,
-        'text-[#886449]' => !$featured,
+        'text-[#315B50]' => !$featured,
     ])>
         {{ $description }}
     </p>
@@ -64,7 +64,7 @@
                     @class([
                         'mt-0.5 h-4 w-4 shrink-0',
                         'text-[#E1CBB0]' => $featured,
-                        'text-[#886449]' => !$featured,
+                        'text-[#315B50]' => !$featured,
                     ])
                     aria-hidden="true"
                 >
@@ -106,7 +106,7 @@
     >
         <form method="dialog">
             <div class="flex items-center justify-between gap-4">
-                <p class="text-[10px] font-semibold uppercase tracking-[0.18em] text-[#886449]">
+                <p class="text-[10px] font-semibold uppercase tracking-[0.18em] text-[#315B50]">
                     Hometown Cafe
                 </p>
 
@@ -115,7 +115,7 @@
                     value="close"
                     autofocus
                     aria-label="Close package details"
-                    class="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-[#DFD2C1] hover:bg-[#E8DDCE] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#886449]"
+                    class="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-[#DFD2C1] hover:bg-[#E8DDCE] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#315B50]"
                 >
                     <svg
                         viewBox="0 0 24 24"

@@ -20,7 +20,7 @@
     </div>
 
     <div class="flex flex-1 flex-col border-t border-[#E8DDCE] p-5">
-        <p class="text-[10px] font-semibold uppercase tracking-[0.14em] text-[#756453]">
+        <p class="text-[10px] font-semibold uppercase tracking-[0.14em] text-[#315B50]">
             {{ $category }}
         </p>
 

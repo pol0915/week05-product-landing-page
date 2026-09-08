@@ -39,8 +39,8 @@
     $paths = $icons[$icon] ?? $icons['coffee'];
 @endphp
 
-<article class="h-full rounded-2xl border border-[#E1D6C8] bg-[#FCFAF6] p-6 transition-colors hover:border-[#BBA58C] hover:bg-[#FFFDF9] sm:p-7">
-    <div class="flex h-12 w-12 items-center justify-center rounded-2xl border border-[#DFD2C1] bg-[#EDE4D8] text-[#78583F]">
+<article class="h-full rounded-2xl border border-[#E1D6C8] bg-[#FCFAF6] p-6 transition-colors hover:border-[#809C89] hover:bg-[#FFFDF9] sm:p-7">
+    <div class="flex h-12 w-12 items-center justify-center rounded-2xl border border-[#DFD2C1] bg-[#EDE4D8] text-[#886449]">
         <svg
             viewBox="0 0 24 24"
             fill="none"

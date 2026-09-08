@@ -7,7 +7,7 @@
 ])
 
 <article class="flex h-full flex-col rounded-2xl border border-[#DFD2C1] bg-[#FCFAF6] p-6 sm:p-7">
-    <div class="flex items-center justify-between gap-4">
+    <div>
         <svg
             viewBox="0 0 24 24"
             fill="none"
@@ -15,14 +15,12 @@
             stroke-width="1.5"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="h-8 w-8 text-[#886449]"
+            class="h-8 w-8 text-[#315B50]"
             aria-hidden="true"
         >
             <path d="M10 5H4v8h5c0 3-2 5-5 6" />
             <path d="M21 5h-6v8h5c0 3-2 5-5 6" />
         </svg>
-
-        
     </div>
 
     <blockquote class="mt-6 flex-1">
@@ -44,7 +42,7 @@
             >
         @else
             <span
-                class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-[#D9CCBC] bg-[#EDE4D8] font-serif text-lg text-[#78583F]"
+                class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-[#C9D6C8] bg-[#E6EDE5] font-serif text-lg text-[#315B50]"
                 aria-hidden="true"
             >
                 {{ $initials }}

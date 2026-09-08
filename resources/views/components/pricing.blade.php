@@ -5,7 +5,7 @@
 >
     <div class="mx-auto max-w-7xl px-5 py-16 lg:px-8 lg:py-20">
         <div class="mx-auto max-w-2xl text-center">
-            <p class="text-xs font-semibold uppercase tracking-[0.2em] text-[#886449]">
+            <p class="text-xs font-semibold uppercase tracking-[0.2em] text-[#315B50]">
                 A little something to share
             </p>
 
@@ -20,8 +20,6 @@
                 Coffee and bites for a solo pause,
                 a catch-up for two, or time around the table.
             </p>
-
-            
         </div>
 
         <div class="mt-10 grid items-stretch gap-6 lg:grid-cols-3">
@@ -62,7 +60,5 @@
                 ]"
             />
         </div>
-
-        
     </div>
 </section>

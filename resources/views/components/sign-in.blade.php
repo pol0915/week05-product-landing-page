@@ -7,7 +7,7 @@
     <div class="max-h-[calc(100dvh-2rem)] overflow-y-auto overscroll-contain p-6 sm:p-8">
         <div class="flex items-start justify-between gap-4">
             <div>
-                <p class="text-[10px] font-semibold uppercase tracking-[0.2em] text-[#886449]">
+                <p class="text-[10px] font-semibold uppercase tracking-[0.2em] text-[#315B50]">
                     Hometown Cafe
                 </p>
 
@@ -23,7 +23,7 @@
                 type="button"
                 data-close-signin
                 aria-label="Close sign in"
-                class="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-[#DFD2C1] bg-[#FCFAF6] transition-colors hover:bg-[#E8DDCE] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#886449]"
+                class="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-[#DFD2C1] bg-[#FCFAF6] transition-colors hover:bg-[#E8DDCE] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#315B50]"
             >
                 <svg
                     viewBox="0 0 24 24"
@@ -67,7 +67,7 @@
                         autocomplete="off"
                         spellcheck="false"
                         autofocus
-                        class="mt-2 h-12 w-full rounded-xl border border-[#CDBEAC] bg-[#FCFAF6] px-4 text-base outline-none focus:border-[#886449] focus:ring-2 focus:ring-[#886449]/20"
+                        class="mt-2 h-12 w-full rounded-xl border border-[#CDBEAC] bg-[#FCFAF6] px-4 text-base outline-none focus:border-[#315B50] focus:ring-2 focus:ring-[#315B50]/20"
                     >
                 </div>
 
@@ -86,7 +86,7 @@
                         required
                         maxlength="100"
                         autocomplete="off"
-                        class="mt-2 h-12 w-full rounded-xl border border-[#CDBEAC] bg-[#FCFAF6] px-4 text-base outline-none focus:border-[#886449] focus:ring-2 focus:ring-[#886449]/20"
+                        class="mt-2 h-12 w-full rounded-xl border border-[#CDBEAC] bg-[#FCFAF6] px-4 text-base outline-none focus:border-[#315B50] focus:ring-2 focus:ring-[#315B50]/20"
                     >
                 </div>
 
@@ -107,7 +107,7 @@
         <div id="signin-success" hidden>
             <div class="mt-6 rounded-2xl border border-[#DFD2C1] bg-[#EDE4D8] p-5 sm:p-6">
                 <div class="flex items-start gap-4">
-                    <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-[#352820] text-[#F7F3EC]">
+                    <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-[#24483F] text-[#F7F3EC]">
                         <svg
                             viewBox="0 0 24 24"
                             fill="none"

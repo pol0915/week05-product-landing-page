@@ -8,21 +8,21 @@
     <main id="main-content">
         <x-hero />
 
-        <section id="features" class="scroll-mt-40 xl:scroll-mt-24">
+        <section id="features" class="scroll-mt-40 xl:scroll-mt-24 bg-[#315B50]">
             <div class="mx-auto max-w-7xl px-5 py-16 lg:px-8 lg:py-20">
                 <div class="grid gap-5 lg:grid-cols-2 lg:items-end lg:gap-12">
                     <div>
-                        <p class="text-xs font-semibold uppercase tracking-[0.2em] text-[#886449]">
+                        <p class="text-xs font-semibold uppercase tracking-[0.2em] text-[#D7E5D9]">
                             Make yourself at home
                         </p>
 
-                        <h2 class="mt-4 max-w-xl font-serif text-3xl leading-tight sm:text-4xl">
+                        <h2 class="mt-4 max-w-xl font-serif text-3xl leading-tight sm:text-4xl text-[#FFF9F0]">
                             Something for<br class="hidden sm:block">
                             your kind of day.
                         </h2>
                     </div>
 
-                    <p class="max-w-md text-sm leading-7 text-[#66584B] lg:justify-self-end">
+                    <p class="max-w-md text-sm leading-7 text-[#E2E9E3] lg:justify-self-end">
                         From your first sip to your last bite, explore
                         the little things that make a Hometown visit
                         part of your day.
@@ -102,7 +102,7 @@
                         Find your next favorite.
                     </h2>
 
-                    <p class="mt-4 leading-7 text-[#F0E3D4]">
+                    <p class="mt-4 leading leading-7 text-[#F0E3D4]">
                         A familiar classic or something a little different.
                         Start with a cup that feels like you.
                     </p>
@@ -134,14 +134,9 @@
                     />
                 </div>
 
-                <div class="mt-6 space-y-1 text-xs leading-6 text-[#F0E3D4]">
-                    
-
-                    <p>
-                        Contact the cafe for current prices and availability.
-                        
-                    </p>
-                </div>
+                <p class="mt-6 text-xs leading-6 text-[#F0E3D4]">
+                    Contact the cafe for current prices and availability.
+                </p>
             </div>
         </section>
 

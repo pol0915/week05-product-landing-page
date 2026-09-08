@@ -6,7 +6,7 @@
     <div class="mx-auto max-w-7xl px-5 py-16 lg:px-8 lg:py-20">
         <div class="grid gap-5 lg:grid-cols-2 lg:items-end lg:gap-12">
             <div>
-                <p class="text-xs font-semibold uppercase tracking-[0.2em] text-[#886449]">
+                <p class="text-xs font-semibold uppercase tracking-[0.2em] text-[#315B50]">
                     Around the coffee table
                 </p>
 
@@ -20,32 +20,33 @@
             </div>
 
             <p class="max-w-md text-sm leading-7 text-[#66584B] lg:justify-self-end">
-                Coffee breaks, familiar faces, and conversations that last a little longer. A few stories from around the table.
+                Coffee breaks, familiar faces, and conversations that
+                last a little longer. A few stories from around the table.
             </p>
         </div>
 
         <div class="mt-10 grid items-stretch gap-5 md:grid-cols-3 lg:gap-6">
             <x-testimonial-card
-                name="Alex D."
-                position="Student"
-                initials="AD"
-                photo="images/guest-alex.png"
+                name="Christian A."
+                position="Customer"
+                initials="CA"
+                photo="images/cj-customer.png"
                 review="A quiet coffee break was exactly what I needed after a busy week. I liked having a comfortable corner to sit, enjoy my latte, and slow down for a while."
             />
 
             <x-testimonial-card
-                name="Jamie R."
-                position="Designer"
-                initials="JR"
-                photo="images/guest-jamie.png"
+                name="Dhenzel C."
+                position="Customer"
+                initials="DC"
+                photo="images/sel-customer.png"
                 review="The warm lighting and simple interiors made our afternoon catch-up feel relaxed. We took our time over coffee and shared a snack while catching up."
             />
 
             <x-testimonial-card
-                name="Sam C."
-                position="Local resident"
-                initials="SC"
-                photo="images/guest-sam.png"
+                name="Paul R."
+                position="Customer"
+                initials="PR"
+                photo="images/pol-customer.png"
                 review="I enjoyed being able to choose something beyond my usual coffee. A matcha latte, a bite to eat, and good company made for a lovely little break."
             />
         </div>

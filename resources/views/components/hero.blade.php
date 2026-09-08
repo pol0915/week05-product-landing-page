@@ -6,7 +6,7 @@
         <div class="max-w-xl lg:w-1/2">
             <div class="flex items-center gap-3">
                 <span
-                    class="h-px w-9 bg-[#886449]"
+                    class="h-px w-9 bg-[#315B50]"
                     aria-hidden="true"
                 ></span>
 

@@ -46,7 +46,7 @@
                 @foreach ($links as $label => $href)
                     <a
                         href="{{ $href }}"
-                        class="py-2 text-sm text-[#66584B] transition-colors hover:text-[#352820] focus-visible:outline-2 focus-visible:outline-offset-4"
+                        class="py-2 text-sm text-[#66584B] transition-colors hover:text-[#315B50] focus-visible:outline-2 focus-visible:outline-offset-4"
                     >
                         {{ $label }}
                     </a>
@@ -68,7 +68,7 @@
 
             <a
                 href="#menu"
-                class="rounded-full border border-[#CDBEAC] px-4 py-2 text-sm font-semibold hover:bg-[#E8DDCE] xl:hidden"
+                class="rounded-full border border-[#CDBEAC] px-4 py-2 text-sm font-semibold hover:bg-[#E6EDE5] xl:hidden"
             >
                 View Menu
             </a>
@@ -94,7 +94,7 @@
                 @foreach ($links as $label => $href)
                     <a
                         href="{{ $href }}"
-                        class="rounded-lg px-3 py-3 text-sm hover:bg-[#E8DDCE]"
+                        class="rounded-lg px-3 py-3 text-sm hover:bg-[#E6EDE5]"
                     >
                         {{ $label }}
                     </a>

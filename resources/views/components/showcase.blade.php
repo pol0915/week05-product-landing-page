@@ -26,7 +26,7 @@
     <div class="mx-auto max-w-7xl px-5 py-16 lg:px-8 lg:py-20">
         <div class="grid gap-6 lg:grid-cols-2 lg:items-end lg:gap-12">
             <div>
-                <p class="text-xs font-semibold uppercase tracking-[0.2em] text-[#886449]">
+                <p class="text-xs font-semibold uppercase tracking-[0.2em] text-[#315B50]">
                     A closer look
                 </p>
 
@@ -100,7 +100,7 @@
 
                         <div class="min-w-0 p-4 sm:p-5">
                             <div class="flex flex-wrap items-center justify-between gap-3">
-                                <p class="text-[10px] font-semibold uppercase tracking-widest text-[#886449]">
+                                <p class="text-[10px] font-semibold uppercase tracking-widest text-[#315B50]">
                                     Your coffee break starts here
                                 </p>
 
@@ -178,7 +178,7 @@
                     </div>
 
                     <div class="p-4">
-                        <p class="text-[9px] uppercase tracking-widest text-[#886449]">
+                        <p class="text-[9px] uppercase tracking-widest text-[#315B50]">
                             A little pause
                         </p>
 
