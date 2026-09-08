@@ -30,7 +30,7 @@
                 name="Christian A."
                 position="Customer"
                 initials="CA"
-                photo="images/customer-cj.png"
+                photo="images/customer-cj.jpg"
                 review="A quiet coffee break was exactly what I needed after a busy week. I liked having a comfortable corner to sit, enjoy my latte, and slow down for a while."
             />
 
