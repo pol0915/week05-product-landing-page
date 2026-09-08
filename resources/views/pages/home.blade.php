@@ -10,36 +10,63 @@
 
         <section id="features" class="scroll-mt-40 xl:scroll-mt-24">
             <div class="mx-auto max-w-7xl px-5 py-16 lg:px-8 lg:py-20">
-                <p class="text-xs font-semibold uppercase tracking-[0.2em] text-[#886449]">
-                    Make yourself at home
-                </p>
+                <div class="grid gap-5 lg:grid-cols-2 lg:items-end lg:gap-12">
+                    <div>
+                        <p class="text-xs font-semibold uppercase tracking-[0.2em] text-[#886449]">
+                            Make yourself at home
+                        </p>
 
-                <h2 class="mt-4 max-w-xl font-serif text-3xl leading-tight sm:text-4xl">
-                    Something for your kind of day.
-                </h2>
+                        <h2 class="mt-4 max-w-xl font-serif text-3xl leading-tight sm:text-4xl">
+                            Something for<br class="hidden sm:block">
+                            your kind of day.
+                        </h2>
+                    </div>
 
-                <div class="mt-9 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+                    <p class="max-w-md text-sm leading-7 text-[#66584B] lg:justify-self-end">
+                        From your first sip to your last bite, explore
+                        the little things that make a Hometown visit
+                        part of your day.
+                    </p>
+                </div>
+
+                <div class="mt-10 grid auto-rows-fr gap-5 sm:grid-cols-2 lg:grid-cols-3 lg:gap-6">
                     @foreach ([
-                        ['title' => 'Classic Coffee', 'description' => 'Explore Americano, Cappuccino, Cafe Latte, and more.'],
-                        ['title' => 'Signature Lattes', 'description' => 'Discover Biscoff, Sea Salt, and Black Sesame Latte.'],
-                        ['title' => 'Matcha Selection', 'description' => 'Find your matcha favorite, from classic to flavored options.'],
-                        ['title' => 'Meals and Snacks', 'description' => 'Choose from pasta, rice meals, sandwiches, and appetizers.'],
-                        ['title' => 'Dine In', 'description' => 'Enjoy your order at the cafe, with outdoor seating available.'],
-                        ['title' => 'Takeout and Pickup', 'description' => 'Take your cafe favorites with you. Contact the cafe for pickup details.']
+                        [
+                            'icon' => 'coffee',
+                            'title' => 'Classic Coffee',
+                            'description' => 'Keep it familiar with an Americano, Cappuccino, or Cafe Latte. Your everyday coffee, your way.',
+                        ],
+                        [
+                            'icon' => 'sparkles',
+                            'title' => 'Signature Lattes',
+                            'description' => 'Try something different with Biscoff, Sea Salt, or Black Sesame Latte from the signature selection.',
+                        ],
+                        [
+                            'icon' => 'leaf',
+                            'title' => 'Matcha Selection',
+                            'description' => 'Make room for a matcha moment. Explore Matcha Latte, Dirty Matcha, and other flavored options.',
+                        ],
+                        [
+                            'icon' => 'utensils',
+                            'title' => 'Meals and Snacks',
+                            'description' => 'Stay for a bite with rice meals, pasta, sandwiches, and appetizers to go with your drink.',
+                        ],
+                        [
+                            'icon' => 'home',
+                            'title' => 'Dine In',
+                            'description' => 'Settle into a seat and enjoy your order at the cafe, with outdoor seating available.',
+                        ],
+                        [
+                            'icon' => 'bag',
+                            'title' => 'Takeout and Pickup',
+                            'description' => 'Bring your favorites along for the day. Contact the cafe for pickup details and availability.',
+                        ],
                     ] as $feature)
-                        <article class="rounded-2xl border border-[#E1D6C8] bg-[#FCFAF6] p-6 transition-shadow hover:shadow-md">
-                            <p class="text-xs font-semibold tracking-widest text-[#886449]">
-                                {{ str_pad($loop->iteration, 2, '0', STR_PAD_LEFT) }}
-                            </p>
-
-                            <h3 class="mt-5 text-lg font-semibold">
-                                {{ $feature['title'] }}
-                            </h3>
-
-                            <p class="mt-3 text-sm leading-7 text-[#66584B]">
-                                {{ $feature['description'] }}
-                            </p>
-                        </article>
+                        <x-feature-card
+                            :icon="$feature['icon']"
+                            :title="$feature['title']"
+                            :description="$feature['description']"
+                        />
                     @endforeach
                 </div>
             </div>
@@ -112,6 +139,7 @@
                         Drink images are AI-generated illustrations.
                         Actual presentation may vary.
                     </p>
+
                     <p>
                         Prices are based on the supplied menu.
                         Confirm current prices and availability with the cafe.
