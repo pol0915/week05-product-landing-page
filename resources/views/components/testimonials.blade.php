@@ -30,7 +30,7 @@
                 name="Christian A."
                 position="Customer"
                 initials="CA"
-                photo="images/cj-customer.png"
+                photo="images/customer-cj.png"
                 review="A quiet coffee break was exactly what I needed after a busy week. I liked having a comfortable corner to sit, enjoy my latte, and slow down for a while."
             />
 
@@ -38,7 +38,7 @@
                 name="Dhenzel C."
                 position="Customer"
                 initials="DC"
-                photo="images/sel-customer.png"
+                photo="images/dens-customer.png"
                 review="The warm lighting and simple interiors made our afternoon catch-up feel relaxed. We took our time over coffee and shared a snack while catching up."
             />
 
@@ -46,7 +46,7 @@
                 name="Paul R."
                 position="Customer"
                 initials="PR"
-                photo="images/pol-customer.png"
+                photo="images/customer-pol.png"
                 review="I enjoyed being able to choose something beyond my usual coffee. A matcha latte, a bite to eat, and good company made for a lovely little break."
             />
         </div>
