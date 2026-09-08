@@ -148,34 +148,9 @@
             </div>
         </section>
 
-        <section id="pricing" class="scroll-mt-40 xl:scroll-mt-24">
-            <div class="mx-auto max-w-7xl px-5 py-16 lg:px-8">
-                <h2 class="font-serif text-3xl sm:text-4xl">
-                    Cafe Packages
-                </h2>
+        <x-pricing />
 
-                <p class="mt-4 max-w-2xl leading-7 text-[#66584B]">
-                    Wireframe: three proposed package cards will be placed here.
-                    These will be labeled as student concepts.
-                </p>
-            </div>
-        </section>
-
-        <section
-            id="testimonials"
-            class="scroll-mt-40 border-t border-[#E8DDCE] xl:scroll-mt-24"
-        >
-            <div class="mx-auto max-w-7xl px-5 py-16 lg:px-8">
-                <h2 class="font-serif text-3xl sm:text-4xl">
-                    Customer Stories
-                </h2>
-
-                <p class="mt-4 max-w-2xl leading-7 text-[#66584B]">
-                    Wireframe: testimonial cards will be placed here.
-                    No customer reviews have been added yet.
-                </p>
-            </div>
-        </section>
+        <x-testimonials />
 
         <section
             id="contact"
