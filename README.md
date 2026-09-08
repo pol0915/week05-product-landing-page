@@ -361,7 +361,7 @@ Documentation screenshots are stored outside `public/` because they support the 
 
 ### Testimonials Section
 
-![Testimonials section](screenshots/testimonials-section.png)
+![Testimonials section](screenshots/testimonials.png)
 
 ### Contact Section
 
