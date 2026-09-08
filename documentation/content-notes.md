@@ -4,8 +4,9 @@ This website is a Week 5 student project based on Hometown Cafe.
 
 ## Business references
 
-The cafe information, reference menu prices, interior photographs,
-and social account details were supplied as screenshots and images.
+The cafe information, interior photographs, and social account details were sourced from Hometown Cafe's Facebook page. Menu items and reference prices were taken from the cafe's Canva menu supplied during development.
+
+Screenshots and downloaded images from these sources served as references for the website's content and visual design. Prices and availability reflect the supplied references and may change.
 
 ## Product imagery
 
@@ -15,9 +16,9 @@ They are not photographs of the cafe's actual drinks.
 
 ## Testimonials
 
-Alex D., Jamie R., and Sam C. are fictional profiles.
-Their portraits were generated using AI.
-Their reviews are original sample copy, not verified customer feedback.
+The testimonials from Christian A., Dhenzel C., and Paul R. are based on our personal experiences visiting Hometown Cafe.
+
+They describe our impressions of the drinks, food, atmosphere, and time spent at the cafe. The statements were written for this project rather than copied from public review platforms.
 
 ## Cafe packages
 
