@@ -148,6 +148,8 @@
             </div>
         </section>
 
+        <x-showcase />
+
         <x-pricing />
 
         <x-testimonials />
